@@ -1,6 +1,6 @@
 class ClassTest {
-	public static void main(String avg[]) {
-		System.out.println("aaa".getClass());
+	public static void main(String args[]) {
+		System.out.println("test".getClass());
 	}
 
 }
