@@ -1,7 +1,7 @@
 import java.util.Map;
 import java.util.WeakHashMap;
 
-class ClassWeakHashMapTest {
+class WeakHashMapTest {
     private Map<Integer, String> myMap = new WeakHashMap<Integer, String>(); 
 
     private void setMyMap() {
@@ -11,7 +11,7 @@ class ClassWeakHashMapTest {
     }
 
     public static void main(String[] args) {
-        ClassWeakHashMapTest myTest = new ClassWeakHashMapTest();
+        WeakHashMapTest myTest = new WeakHashMapTest();
 
         myTest.setMyMap();
         for (int i = 0; i < 5; ++i) {
