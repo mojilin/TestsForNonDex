@@ -2,7 +2,7 @@
 import java.util.Map;
 import java.util.HashMap;
 
-public class ClassHashMapTest {
+public class HashMapTest {
 
     public static void main(String[] args) {
         Map<Integer, String> myMap = new HashMap<Integer, String>(); 
